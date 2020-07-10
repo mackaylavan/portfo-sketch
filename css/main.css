@@ -177,6 +177,11 @@ nav{
 #construction-banner{
     display: none;
 }
+#profile-image{
+    max-width: 40%;
+    padding: 25px;
+    margin: 50px;
+}
 footer{
     display: flex;
     justify-content: center;
@@ -215,6 +220,14 @@ footer a{
     z-index: 2;
     top: 100px;
     left:200px;
+}
+.spaced-text{
+    color: #ffffff;
+    font-size: 1.5em;
+    max-width: 55%;
+    padding: 25px 50px 0px 0px;
+    margin: 25px;
+    align-self: flex-end;
 }
 
 .hero-img{
@@ -283,6 +296,18 @@ footer a{
 /** HOME PAGE **/
 .home-hero{
     background-color: #322038;
+    font-size: 0.8em;
+}
+.about{
+    color: #ffffff;
+    font-size: 1.5em;
+    max-width: 75%;
+    padding: 25px 50px 25px 0px;
+    margin: 25px 0px 125px 25px;
+    position: relative;
+    z-index: 2;
+    top: 100px;
+    left:200px;
 }
 /** SOSPESO **/ 
 
@@ -386,10 +411,19 @@ footer a{
 }
 
 /** ZK SOCIAL LABS **/ 
-.zk-hero{
+.zk-hero,
+.wanderings-hero{
     background-color: #B6D2CF;
+    color: #322038;
 }
-
+/** MASK ON OFF **/
+.masks-hero{
+    background-color: #322038;
+}
+/** WANDERINGS **/
+#wanderings-home{
+    max-width:20%;
+}
 
 
 
